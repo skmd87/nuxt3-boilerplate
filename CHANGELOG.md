@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/skmd87/nuxt3-boilerplate/compare/v1.0.1...v1.1.0) (2024-01-14)
+
+
+### Features
+
+* link npm version with symantic release ([5dffea6](https://github.com/skmd87/nuxt3-boilerplate/commit/5dffea634f33b3c53d2811188d8c23a64b0f1398))
+
 ## [1.0.1](https://github.com/skmd87/nuxt3-boilerplate/compare/v1.0.0...v1.0.1) (2024-01-14)
 
 
