@@ -1,5 +1,6 @@
 {
   "name": "nuxt-app",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -8,7 +9,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "release": "semantic-release"
+    "release": "semantic-release --no-ci"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^18.4.4",
