@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/skmd87/nuxt3-boilerplate/compare/v1.1.1...v1.1.2) (2024-01-14)
+
+
+### Bug Fixes
+
+* include packege-lock.json in symantic release commit ([29675cb](https://github.com/skmd87/nuxt3-boilerplate/commit/29675cb923b0abe3b30230db0d09b9fe2a335335))
+
 ## [1.1.1](https://github.com/skmd87/nuxt3-boilerplate/compare/v1.1.0...v1.1.1) (2024-01-14)
 
 
