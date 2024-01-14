@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/skmd87/nuxt3-boilerplate/compare/v1.1.2...v1.1.3) (2024-01-14)
+
+
+### Bug Fixes
+
+* add package-lock to commits ([5ebda2c](https://github.com/skmd87/nuxt3-boilerplate/commit/5ebda2c1829e294b2a7643f93cf676949e2ec5e5))
+
 ## [1.1.2](https://github.com/skmd87/nuxt3-boilerplate/compare/v1.1.1...v1.1.2) (2024-01-14)
 
 
