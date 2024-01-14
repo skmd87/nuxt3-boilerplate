@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/skmd87/nuxt3-boilerplate/compare/v1.1.3...v1.1.4) (2024-01-14)
+
+
+### Bug Fixes
+
+* add .output ([a35f8d0](https://github.com/skmd87/nuxt3-boilerplate/commit/a35f8d00a9376aef380a0219476bd656e9ceee46))
+
 ## [1.1.3](https://github.com/skmd87/nuxt3-boilerplate/compare/v1.1.2...v1.1.3) (2024-01-14)
 
 
