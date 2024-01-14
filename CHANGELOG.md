@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/skmd87/nuxt3-boilerplate/compare/v1.1.0...v1.1.1) (2024-01-14)
+
+
+### Bug Fixes
+
+* add test.vue component ([b3a734b](https://github.com/skmd87/nuxt3-boilerplate/commit/b3a734bba00301020894e92bdc4895e55cd1f490))
+
 # [1.1.0](https://github.com/skmd87/nuxt3-boilerplate/compare/v1.0.1...v1.1.0) (2024-01-14)
 
 
