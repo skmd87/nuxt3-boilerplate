@@ -1,0 +1,28 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "^18.4.4",
+    "@nuxtjs/eslint-config-typescript": "^12.1.0",
+    "@typescript-eslint/eslint-plugin": "^6.18.1",
+    "@typescript-eslint/parser": "^6.18.1",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-vue": "^9.20.1",
+    "husky": "^8.0.3",
+    "nuxt": "^3.9.1",
+    "prettier": "^3.2.2",
+    "semantic-release": "^23.0.0",
+    "vue": "^3.4.13",
+    "vue-router": "^4.2.5",
+    "vue-tsc": "^1.8.27"
+  }
+}
