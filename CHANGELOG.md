@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/skmd87/nuxt3-boilerplate/compare/v1.0.0...v1.0.1) (2024-01-14)
+
+
+### Bug Fixes
+
+* remove console.log ([74b0f2c](https://github.com/skmd87/nuxt3-boilerplate/commit/74b0f2c51e838d2ed804455ae1d9b149dbe75b1c))
+
 # 1.0.0 (2024-01-14)
 
 
