@@ -1,3 +1,12 @@
+## [1.1.5](https://github.com/skmd87/nuxt3-boilerplate/compare/v1.1.4...v1.1.5) (2024-01-18)
+
+
+### Bug Fixes
+
+* add config ([801a361](https://github.com/skmd87/nuxt3-boilerplate/commit/801a361c36c779d071a171f644271c7529abc8d7))
+* commitlent in .husky ([797245c](https://github.com/skmd87/nuxt3-boilerplate/commit/797245c6521bc638efa4f4fb49e8076b1ba5166c))
+* commitlint ([521afba](https://github.com/skmd87/nuxt3-boilerplate/commit/521afba2b62c5233256f2546977e3858e0a60fec))
+
 ## [1.1.4](https://github.com/skmd87/nuxt3-boilerplate/compare/v1.1.3...v1.1.4) (2024-01-14)
 
 
