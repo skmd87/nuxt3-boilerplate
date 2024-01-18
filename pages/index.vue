@@ -9,7 +9,7 @@
 		rounded="10"
 		:height="51651651561651"
 	>
-		hid ds sd {{ $t('hello') }}
+		hid ds sd h{{ $t('hello') }}
 	</v-sheet>
 	<NuxtWelcome />
 </template>
