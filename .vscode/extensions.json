@@ -1,5 +1,30 @@
 {
-    "recommendations": [
-        "joshbolduc.commitlint"
-    ]
+	"recommendations": [
+		"joshbolduc.commitlint",
+		"antfu.unocss",
+		"antfu.iconify",
+		"aaron-bond.better-comments",
+		"wmaurer.change-case",
+		"streetsidesoftware.code-spell-checker",
+		"mitchdenny.ecdc",
+		"usernamehw.errorlens",
+		"dbaeumer.vscode-eslint",
+		"eamodio.gitlens",
+		"antfu.goto-alias",
+		"bradgashler.htmltagwrap",
+		"wix.vscode-import-cost",
+		"nuxt.mdc",
+		"nuxtr.nuxtr-vscode",
+		"quicktype.quicktype",
+		"christian-kohler.path-intellisense",
+		"yoavbls.pretty-ts-errors",
+		"alefragnani.project-manager",
+		"syler.sass-indented",
+		"sibiraj-s.vscode-scss-formatter",
+		"gruntfuggly.todo-tree",
+		"chakrounanas.turbo-console-log",
+		"vue.vscode-typescript-vue-plugin",
+		"misterj.vue-volar-extention-pack",
+		"lokalise.i18n-ally"
+	],
 }
