@@ -1,3 +1,11 @@
+## [1.1.6](https://github.com/skmd87/nuxt3-boilerplate/compare/v1.1.5...v1.1.6) (2024-01-18)
+
+
+### Bug Fixes
+
+* included .output by mistake ([7cf10bb](https://github.com/skmd87/nuxt3-boilerplate/commit/7cf10bbd144bc8b6c5c1df3a2ae2997511ab71fa))
+* tryingg to fix ([8e41894](https://github.com/skmd87/nuxt3-boilerplate/commit/8e4189445748d267ac4bb25295804d35e55d6a7e))
+
 ## [1.1.5](https://github.com/skmd87/nuxt3-boilerplate/compare/v1.1.4...v1.1.5) (2024-01-18)
 
 
