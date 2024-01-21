@@ -1,5 +1,5 @@
 <template>
-	<NuxtWelcome />
+	<NuxtWelcome />e
 </template>
 
 <script lang="ts" setup>
