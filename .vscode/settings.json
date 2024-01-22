@@ -7,8 +7,12 @@
 		"jsonld",
 		"lastmod",
 		"Nuxt",
+		"nuxtjs",
+		"pinia",
 		"unocss",
 		"Vite",
+		"vuetify",
+		"vueuse",
 		"zadigetvoltaire"
 	],
 	"eslint.format.enable": true,
@@ -43,4 +47,7 @@
 	"i18n-ally.dirStructure": "file",
 	"i18n-ally.displayLanguage": "en",
 	"i18n-ally.keystyle": "nested",
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
 }

@@ -11,9 +11,11 @@
 		"generate": "nuxt generate",
 		"preview": "nuxt preview",
 		"postinstall": "nuxt prepare",
-		"release": "semantic-release --no-ci"
+		"release": "semantic-release --no-ci",
+		"prepare": "husky install"
 	},
 	"devDependencies": {
+		"@commitlint/cli": "^18.4.4",
 		"@commitlint/config-conventional": "^18.4.4",
 		"@date-io/dayjs": "^3.0.0",
 		"@iconify-json/fe": "^1.1.10",
