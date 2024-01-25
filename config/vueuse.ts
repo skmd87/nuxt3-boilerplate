@@ -1,6 +1,6 @@
-import { type ModuleOptions } from '@pinia/nuxt'
+import { type VueUseNuxtOptions } from '@vueuse/nuxt'
 
-const config: ModuleOptions = {
+const config: VueUseNuxtOptions = {
 
 }
 
