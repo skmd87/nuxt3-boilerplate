@@ -14,13 +14,23 @@ import htmlValidatorConfig from './config/htmlValidator'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+	extends: [
+		// ['github:username/repoName', { install: true }],
+		['../nuxt3-admin-layer', { install: true }],
+	],
 	$production: {
 		routeRules: {
-			// '/**': { isr: true },
+
 		},
 	},
 	$development: {
+		routeRules: {
 
+		},
+	},
+	routeRules: {
+		// '/admin/**': { ssr: false },
+		'/*/admin/**': { ssr: false },
 	},
 	runtimeConfig: {
 
@@ -44,7 +54,7 @@ export default defineNuxtConfig({
 		['nuxt-simple-sitemap', sitemapConfig],
 		['nuxt-jsonld', jsonldConfig],
 		['nuxt-simple-robots', robotsConfig],
-		// 'nuxt-typed-router',
+		// 'nuxt-typed-router', awaiting v4
 		['@zadigetvoltaire/nuxt-gtm', gtmConfig],
 		['@nuxtjs/html-validator', htmlValidatorConfig],
 		['vuetify-nuxt-module', vuetifyConfig],
