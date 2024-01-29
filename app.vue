@@ -1,7 +1,10 @@
 <template>
+	<VitePwaManifest />
+
 	<NuxtLayout>
 		<NuxtPage />
 	</NuxtLayout>
+	<!-- REMOVE ME -->
 	<div class="text-center ma-8">
 		Nuxt Boilerplate Version: {{ version }}
 	</div>

@@ -56,7 +56,7 @@
 			"error",
 			"always",
 			{
-				"autofix": false,
+				"autofix": true,
 				"ignore": [
 					"modelValue"
 				]
@@ -65,17 +65,25 @@
 		"import/no-named-as-default": 0,
 		"vue/no-multiple-template-root": 0,
 		"space-before-function-paren": "off",
-		"vue/html-indent": ["error", "tab", {
-			"attribute": 1,
-			"baseIndent": 1,
-			"closeBracket": 0,
-			"alignAttributesVertically": true,
-			"ignores": []
-		}],
-		"vue/script-indent": ["error", "tab", {
-			"baseIndent": 0,
-			"switchCase": 0,
-			"ignores": []
-		}]
+		"vue/html-indent": [
+			"error",
+			"tab",
+			{
+				"attribute": 1,
+				"baseIndent": 1,
+				"closeBracket": 0,
+				"alignAttributesVertically": true,
+				"ignores": []
+			}
+		],
+		"vue/script-indent": [
+			"error",
+			"tab",
+			{
+				"baseIndent": 0,
+				"switchCase": 0,
+				"ignores": []
+			}
+		]
 	}
 }

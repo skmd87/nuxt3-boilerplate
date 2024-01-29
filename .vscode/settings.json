@@ -2,6 +2,7 @@
 	"nuxt.isNuxtApp": false,
 	"nuxtr.defaultPackageManager": "NPM",
 	"cSpell.words": [
+		"cacheable",
 		"formkit",
 		"iconify",
 		"jsonld",
@@ -18,10 +19,13 @@
 	"eslint.format.enable": true,
 	"editor.insertSpaces": false,
 	"editor.detectIndentation": false,
-	"editor.tabSize": 4,
+	"editor.tabSize": 3,
 	"editor.linkedEditing": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit"
+	},
 	"editor.formatOnSave": true,
-	"editor.formatOnType": true,
+	"editor.formatOnType": false,
 	"editor.defaultFormatter": "dbaeumer.vscode-eslint",
 	"editor.wordBasedSuggestions": "off",
 	"html.autoClosingTags": true,

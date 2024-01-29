@@ -11,6 +11,8 @@ import unoCss from './config/unoCss'
 import vueuseConfig from './config/vueuse'
 import autoAnimateConfig from './config/autoAnimate'
 import htmlValidatorConfig from './config/htmlValidator'
+import testUtilsConfig from './config/testUtils'
+import pwaConfig from './config/pwa'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -59,6 +61,8 @@ export default defineNuxtConfig({
 		['@nuxtjs/html-validator', htmlValidatorConfig],
 		['vuetify-nuxt-module', vuetifyConfig],
 		['@unocss/nuxt', unoCss],
+		['@nuxt/test-utils/module', testUtilsConfig],
+		['@vite-pwa/nuxt', pwaConfig],
 	],
 	typescript: {
 		typeCheck: true,
