@@ -7,9 +7,6 @@
 		"vue/setup-compiler-macros": true
 	},
 	"extends": [
-		"eslint:recommended",
-		"plugin:vue/vue3-recommended",
-		"plugin:@typescript-eslint/recommended",
 		"@nuxtjs/eslint-config-typescript"
 	],
 	"parserOptions": {
@@ -17,54 +14,23 @@
 		"parser": "@typescript-eslint/parser",
 		"sourceType": "module"
 	},
-	"plugins": [
-		"@typescript-eslint",
-		"@stylistic/ts",
-		"vue"
-	],
 	"rules": {
 		"indent": [
 			"error",
 			"tab"
 		],
-		"no-tabs": [
-			"error",
-			{
-				"allowIndentationTabs": true
-			}
-		],
 		"comma-dangle": [
 			"error",
 			"always-multiline"
 		],
-		"array-bracket-spacing": [
+		"space-before-function-paren": [
 			"error",
-			"never"
-		],
-		"@typescript-eslint/no-explicit-any": 0,
-		"vue/multi-word-component-names": 0,
-		"vue/attribute-hyphenation": [
-			"error",
-			"always",
 			{
-				"ignore": [
-					"modelValue"
-				]
+				"anonymous": "always",
+				"named": "never",
+				"asyncArrow": "always"
 			}
 		],
-		"vue/v-on-event-hyphenation": [
-			"error",
-			"always",
-			{
-				"autofix": true,
-				"ignore": [
-					"modelValue"
-				]
-			}
-		],
-		"import/no-named-as-default": 0,
-		"vue/no-multiple-template-root": 0,
-		"space-before-function-paren": "off",
 		"vue/html-indent": [
 			"error",
 			"tab",
@@ -84,6 +50,14 @@
 				"switchCase": 0,
 				"ignores": []
 			}
-		]
+		],
+		"vue/no-v-text-v-html-on-component": "off",
+		"vue/no-use-v-if-with-v-for": "off",
+		"vue/valid-v-slot": "off",
+		"vue/no-multiple-template-root": "off",
+		"no-tabs": "off",
+		"vue/multi-word-component-names": "off",
+		"no-console": "off",
+		"vue/no-v-html": "off"
 	}
 }
