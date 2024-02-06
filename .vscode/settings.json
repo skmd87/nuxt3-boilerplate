@@ -28,6 +28,16 @@
 	"editor.formatOnType": false,
 	"editor.defaultFormatter": "dbaeumer.vscode-eslint",
 	"editor.wordBasedSuggestions": "off",
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": "invalid.illegal.character-not-allowed-here.html",
+				"settings": {
+					"foreground": "#808080"
+				}
+			}
+		]
+	},
 	"html.autoClosingTags": true,
 	"typescript.tsdk": "<workspace>\\node_modules\\typescript\\lib",
 	"vue.autoInsert.dotValue": true,
