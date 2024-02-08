@@ -13,6 +13,7 @@ import autoAnimateConfig from './config/autoAnimate'
 import htmlValidatorConfig from './config/htmlValidator'
 import testUtilsConfig from './config/testUtils'
 import pwaConfig from './config/pwa'
+import dayjsConfig from './config/dayjs'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -63,6 +64,7 @@ export default defineNuxtConfig({
 		['@unocss/nuxt', unoCss],
 		['@nuxt/test-utils/module', testUtilsConfig],
 		['@vite-pwa/nuxt', pwaConfig],
+		['dayjs-nuxt', dayjsConfig],
 	],
 	typescript: {
 		typeCheck: true,
