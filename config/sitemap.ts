@@ -1,4 +1,4 @@
-import { type ModuleOptions } from 'nuxt-simple-sitemap'
+import { type ModuleOptions } from '@nuxtjs/sitemap'
 const config: Partial<ModuleOptions> = {
 	enabled: true, // linked to robots config
 	discoverImages: true,

@@ -1,6 +1,6 @@
-import { type ModuleOptions } from '@nuxtjs/eslint-module'
+// import ModuleOptions from '@nuxtjs/eslint-module'
 
-const config: ModuleOptions = {
+const config = {
 	lintOnStart: false,
 	fix: true,
 	emitError: true,

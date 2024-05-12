@@ -1,4 +1,3 @@
-import { type SitemapUrl } from 'nuxt-simple-sitemap/dist/runtime/types'
 type Post = {
     _path: string,
     modifiedAt: Date,
@@ -27,6 +26,6 @@ export default defineSitemapEventHandler(async () => {
 			lastmod: p.modifiedAt,
 			images: [],
 			_i18nTransform: true,
-		} as SitemapUrl
+		}
 	})
 })

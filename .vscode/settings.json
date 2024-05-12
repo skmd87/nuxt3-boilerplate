@@ -39,7 +39,7 @@
 		]
 	},
 	"html.autoClosingTags": true,
-	"typescript.tsdk": "<workspace>\\node_modules\\typescript\\lib",
+	"typescript.tsdk": "node_modules\\typescript\\lib",
 	"vue.autoInsert.dotValue": true,
 	"vue.inlayHints.inlineHandlerLeading": true,
 	"vue.inlayHints.missingProps": true,

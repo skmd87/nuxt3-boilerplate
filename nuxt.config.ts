@@ -57,10 +57,9 @@ export default defineNuxtConfig({
 		['@formkit/auto-animate', autoAnimateConfig],
 		['@vueuse/nuxt', vueuseConfig],
 		['@nuxt/image', imageConfig],
-		['nuxt-simple-sitemap', sitemapConfig],
+		['@nuxtjs/sitemap', sitemapConfig],
 		['nuxt-jsonld', jsonldConfig],
 		['nuxt-simple-robots', robotsConfig],
-		// 'nuxt-typed-router', awaiting v4
 		['@zadigetvoltaire/nuxt-gtm', gtmConfig],
 		['@nuxtjs/html-validator', htmlValidatorConfig],
 		['vuetify-nuxt-module', vuetifyConfig],
